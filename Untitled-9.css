@@ -1,0 +1,134 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #333;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-bottom: 2px solid #ccc;
+}
+
+.header .logo h1 {
+    font-size: 2em;
+    color: #333;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 200px;
+}
+
+.search-bar button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #0056b3;
+}
+
+.categories {
+    margin: 20px;
+}
+
+.categories h2 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.categories ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.categories ul li {
+    margin: 10px;
+}
+
+.categories ul li a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+}
+
+.categories ul li a:hover {
+    color: #0056b3;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+
+.product-item {
+    background-color: #fafafa;
+    padding: 20px;
+    width: 200px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    margin: 10px 0;
+}
+
+.product-item .price {
+    font-size: 1.1em;
+    margin: 10px 0;
+    color: #007bff;
+}
+
+.buy-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.buy-button:hover {
+    background-color: #0056b3;
+}
+
+.footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: #333;
+    border-top: 2px solid #ccc;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
